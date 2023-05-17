@@ -16,7 +16,7 @@ body:after {
 
 
 a {
-	cursor: not-allowed;
+	cursor: pointer;
 	color: black;
 }
 a:link { text-decoration: none; }
@@ -25,6 +25,15 @@ ul {
     list-style: none;
 }
 
+p {
+	color: white;
+	font-size: 55px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	text-shadow: 12px 21px 5px grey;
+	z-index: 50;
+}
 
 
 .backimage {
@@ -44,7 +53,7 @@ ul {
 
 .BeginWord {
 	font-size: 40px;
-	margin-top: 300px;
+	margin-top: 50px;
 	padding-left: 1000px;
 }
 
@@ -97,7 +106,7 @@ display: flex;
 	
 	z-index: 50;
 	
-	cursor: not-allowed;
+	cursor: pointer;
 
 	
 
